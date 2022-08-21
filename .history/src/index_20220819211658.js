@@ -20,7 +20,7 @@ const option = {
       data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     },
     {
-      name: "时间",
+      name: "时间"，
       type: "category",
       data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
       gridIndex: 1

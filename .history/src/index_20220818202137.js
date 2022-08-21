@@ -47,14 +47,14 @@ const option = {
   ],
   grid: [
     {
-      bottom: '70%'
+      bottom: '60%'
     },
     {
-      top: '40%',
-      bottom:'40%'
+      top: '60%'
     },
     {
-      top: '70%',
+      top: '100%',
+      bottom: '-60%'
     }
   ],
   series: [

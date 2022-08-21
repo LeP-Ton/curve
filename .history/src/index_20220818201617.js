@@ -47,14 +47,13 @@ const option = {
   ],
   grid: [
     {
-      bottom: '70%'
+      bottom: '60%'
     },
     {
-      top: '40%',
-      bottom:'40%'
+      top: '60%'
     },
     {
-      top: '70%',
+      bottom: '-60%'
     }
   ],
   series: [
@@ -83,7 +82,7 @@ const option = {
 };
 root.render(
   <React.StrictMode>
-    <Echart options={option} style={{width:'500px', height: "500px" ,border: '1px solid'}} />
+    <Echart options={option} style={{ height: "300px" }} />
   </React.StrictMode>
 );
 

@@ -50,11 +50,11 @@ const option = {
       bottom: '70%'
     },
     {
-      top: '40%',
-      bottom:'40%'
+      top: '33%',
+      bottom:'46%'
     },
     {
-      top: '70%',
+      top: '63%',
     }
   ],
   series: [

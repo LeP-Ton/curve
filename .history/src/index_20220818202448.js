@@ -50,8 +50,8 @@ const option = {
       bottom: '70%'
     },
     {
-      top: '40%',
-      bottom:'40%'
+      top: '37%',
+      bottom:'37%'
     },
     {
       top: '70%',

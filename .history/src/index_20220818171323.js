@@ -23,38 +23,22 @@ const option = {
       name: "时间",
       type: "category",
       data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-      gridIndex: 1
-    },
-    {
-      name: "时间",
-      type: "category",
-      data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-      gridIndex: 2
     },
   ],
   yAxis: [
+    {},
     {
       type: "value",
       inverse: true,
-    },
-    {
       gridIndex: 1
     },
-    {
-      gridIndex: 2
-    }
-
   ],
   grid: [
     {
-      bottom: '70%'
+      bottom: '60%'
     },
     {
-      top: '40%',
-      bottom:'40%'
-    },
-    {
-      top: '70%',
+      top: '60%'
     }
   ],
   series: [
@@ -64,26 +48,17 @@ const option = {
       type: "bar",
     },
     {
-      name: "宽度",
       type: "line",
       showSymbol: false,
       data: [120, 200, 150, 80, 70, 110, 130],
       xAxisIndex: 1,
       yAxisIndex: 1,
     },
-    {
-      name: "长度",
-      type: "line",
-      showSymbol: false,
-      data: [120, 200, 150, 80, 70, 110, 130],
-      xAxisIndex: 2,
-      yAxisIndex: 2,
-    }
   ],
 };
 root.render(
   <React.StrictMode>
-    <Echart options={option} style={{width:'500px', height: "500px" ,border: '1px solid'}} />
+    <Echart options={option} style={{ height: "300px" }} />
   </React.StrictMode>
 );
 

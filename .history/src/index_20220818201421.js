@@ -47,14 +47,10 @@ const option = {
   ],
   grid: [
     {
-      bottom: '70%'
+      bottom: '60%'
     },
     {
-      top: '40%',
-      bottom:'40%'
-    },
-    {
-      top: '70%',
+      top: '60%'
     }
   ],
   series: [
@@ -71,19 +67,19 @@ const option = {
       xAxisIndex: 1,
       yAxisIndex: 1,
     },
-    {
-      name: "长度",
-      type: "line",
-      showSymbol: false,
-      data: [120, 200, 150, 80, 70, 110, 130],
-      xAxisIndex: 2,
-      yAxisIndex: 2,
-    }
+    // {
+    //   name: "长度",
+    //   type: "line",
+    //   showSymbol: false,
+    //   data: [120, 200, 150, 80, 70, 110, 130],
+    //   xAxisIndex: 2,
+    //   yAxisIndex: 2,
+    // }
   ],
 };
 root.render(
   <React.StrictMode>
-    <Echart options={option} style={{width:'500px', height: "500px" ,border: '1px solid'}} />
+    <Echart options={option} style={{ height: "300px" }} />
   </React.StrictMode>
 );
 

@@ -15,7 +15,7 @@ const option = {
   },
   xAxis: [
     {
-      name: "时间",
+      name: "时间"，
       type: "category",
       data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
     },
